@@ -1,3 +1,50 @@
+function readURL(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+          $('#bhoriimage')
+              .attr('src', e.target.result)
+              .width(250)
+              .height(320);
+      };
+
+      reader.readAsDataURL(input.files[0]);
+  }
+}
+
+function readURL2(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+          $('#annaimage')
+              .attr('src', e.target.result)
+              .width(250)
+              .height(320);
+      };
+
+      reader.readAsDataURL(input.files[0]);
+  }
+}
+
+
+function readURL3(input) {
+  if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+          $('#gramimage')
+              .attr('src', e.target.result)
+              .width(250)
+              .height(320);
+      };
+
+      reader.readAsDataURL(input.files[0]);
+  }
+}
+
+
 function control(value){
   var divval1 = document.getElementById('bh').style;
   var divval2 = document.getElementById('an').style;
