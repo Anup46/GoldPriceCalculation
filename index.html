@@ -116,7 +116,10 @@
           <p>পিতার নাম : <input placeholder="পিতার নাম লিখুন" style="font-weight: bold; border-radius: 5px;text-align: center;" type="text"></input> </p>
           <p>ঠিকানা  : <input placeholder="ঠিকানা লিখুন" style="font-weight: bold; border-radius: 5px;text-align: center;" type="text"></input> </p>
           <p>জিনিসের বিবরণী: <textarea placeholder="আপনার জিনিসের বিবরণী এইখানে লিখুন..." rows="8" cols="30" style="font-weight: bold; border-radius: 5px;"></textarea></p>
-      
+          <label for="img">ছবি নিন  :</label>
+          <input type='file' onchange="readURL(this);" />
+          <img id="bhoriimage" src="#" alt="আপনার নেওয়া ছবি" /><br>
+          <p style="margin-top: 10px;"></p>
               <p>প্রতি ভরি স্বর্ণের/রুপার দাম প্রবেশ করান : <input style="font-weight: bold; border-radius: 5px;text-align: center;" type="text" id="price2" > টাকা।</input> </p>
       
               <p><span>স্বর্ণের/রুপার ওজোন (ভরি) : <input style="font-weight: bold; border-radius: 5px;text-align: center;" type="text"  id="voriw" >
@@ -182,7 +185,10 @@
           <p>পিতার নাম : <input placeholder="পিতার নাম লিখুন" style="font-weight: bold; border-radius: 5px;text-align: center;" type="text"></input> </p>
           <p>ঠিকানা  : <input placeholder="ঠিকানা লিখুন" style="font-weight: bold; border-radius: 5px;text-align: center;" type="text"></input> </p>
           <p>জিনিসের বিবরণী: <textarea placeholder="আপনার জিনিসের বিবরণী এইখানে লিখুন..." rows="8" cols="30" style="font-weight: bold; border-radius: 5px;"></textarea></p>
-      
+          <label for="img">ছবি নিন  :</label>
+          <input type='file' onchange="readURL2(this);" />
+          <img id="annaimage" src="#" alt="আপনার নেওয়া ছবি" /><br>
+          <p style="margin-top: 10px;"></p>
           
               <p>প্রতি আনায় স্বর্ণের/রুপার দাম প্রবেশ করান : <input style="font-weight: bold; border-radius: 5px;text-align: center;" type="text" id="price2A" > টাকা।</input> </p>
       
@@ -252,7 +258,10 @@
           <p>পিতার নাম : <input placeholder="পিতার নাম লিখুন" style="font-weight: bold; border-radius: 5px;text-align: center;" type="text"></input> </p>
           <p>ঠিকানা  : <input placeholder="ঠিকানা লিখুন" style="font-weight: bold; border-radius: 5px;text-align: center;" type="text"></input> </p>
           <p>জিনিসের বিবরণী: <textarea placeholder="আপনার জিনিসের বিবরণী এইখানে লিখুন..." rows="8" cols="30" style="font-weight: bold; border-radius: 5px;"></textarea></p>
-      
+          <label for="img">ছবি নিন  :</label>
+          <input type='file' onchange="readURL3(this);" />
+          <img id="gramimage" src="#" alt="আপনার নেওয়া ছবি" /><br>
+          <p style="margin-top: 10px;"></p>
           
               <p>প্রতি গ্রামে স্বর্ণের/রুপার দাম প্রবেশ করান : <input style="font-weight: bold; border-radius: 5px;text-align: center;" type="text" id="price2G" > টাকা।</input> </p>
       
@@ -291,8 +300,6 @@
       
         </div >
       
-      
-
 
       </div>
 
